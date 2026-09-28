@@ -1,0 +1,434 @@
+{
+  "Settings": {
+    "Wipe Management (/data/RaidableBases.json)": {
+      "Wipe triggers when Rust protocol changes": true,
+      "Wipe triggers on detection of map wipe": true,
+      "Wipe includes current data": true,
+      "Wipe includes lifetime data (NOT recommended!)": false,
+      "Manual wipe (command: rb wipe) revokes below permissions and groups from players": true,
+      "Permissions and groups to revoke on wipe (command: rb revokepg)": []
+    },
+    "Experimental [* = everything]": {
+      "Apply Custom Auto Height To": [],
+      "Bunker Bases Or Profiles": [],
+      "Multi Foundation Bases Or Profiles": []
+    },
+    "Raid Management": {
+      "Grids To Block Spawns At": [],
+      "Block Spawns At Positions": [
+        {
+          "position": "(0.00, 0.00, 0.00)",
+          "radius": 200.0
+        }
+      ],
+      "Blocked Monument Markers (* = everything)": [],
+      "Additional Map Prefabs To Block Spawns At": {
+        "test_prefab": 150.0,
+        "test_prefab_2": 125.25
+      },
+      "Max Amount Of Players Allowed To Enter (0 = infinite, -1 = none)": {
+        "Maintained Events": 0,
+        "Manual Events": 0,
+        "Scheduled Events": 0,
+        "Bypass For PVP Bases": false
+      },
+      "Additional Containers To Include As Boxes": [
+        "locker"
+      ],
+      "Difficulty Colors (Border)": {
+        "Normal": "000000"
+      },
+      "Difficulty Colors (Inner)": {
+        "Normal": "00FF00"
+      },
+      "Entities Allowed To Drop Loot": {
+        "Despawn These Dropped Loot Bags When Base Despawns": false,
+        "Auto Turrets": false,
+        "Flame Turret": false,
+        "Fog Machine": false,
+        "Gun Trap": false,
+        "SAM Site": false
+      },
+      "Additional Blocked Colliders": [
+        "cube"
+      ],
+      "Allow Teleport": false,
+      "Allow Teleport Ignores Respawning": false,
+      "Allow Cupboard Loot To Drop": true,
+      "Allow Players To Use Ladders": true,
+      "Allow Players To Upgrade Event Buildings": false,
+      "Allow Player Bags To Be Lootable At PVP Bases": true,
+      "Allow Player Bags To Be Lootable At PVE Bases": true,
+      "Allow Players To Loot Traps": false,
+      "Allow Npcs To Target Other Npcs": false,
+      "Allow Raid Bases Inland": true,
+      "Allow Raid Bases On Beaches": true,
+      "Allow Raid Bases On Ice Sheets": false,
+      "Allow Raid Bases On Roads": true,
+      "Allow Raid Bases On Rivers": true,
+      "Allow Raid Bases On Railroads": false,
+      "Allow Raid Bases On Building Topology": true,
+      "Allow Raid Bases On Monument Topology": false,
+      "Amount Of Spawn Position Checks Per Frame (ADVANCED USERS ONLY)": 25,
+      "Allow Vending Machines To Broadcast": false,
+      "Backpacks Can Be Opened At PVE Bases": true,
+      "Backpacks Can Be Opened At PVP Bases": true,
+      "Rust Backpacks Drop At PVE Bases": false,
+      "Rust Backpacks Drop At PVP Bases": true,
+      "Backpacks Drop At PVE Bases": false,
+      "Backpacks Drop At PVP Bases": false,
+      "Block Custom Loot Plugin": false,
+      "Block AlphaLoot Plugin": false,
+      "Block BetterLoot Plugin": true,
+      "Block Npc Kits Plugin": false,
+      "Block Helicopter Damage To Bases": false,
+      "Block Mounted Damage To Bases And Players": false,
+      "Block Damage From Siege Weapons To Bases": false,
+      "Block Mini Collision Damage": false,
+      "Block DoubleJump Plugin": true,
+      "Block RestoreUponDeath Plugin For PVP Bases": false,
+      "Block RestoreUponDeath Plugin For PVE Bases": false,
+      "Block LifeSupport Plugin": true,
+      "Block Rewards During Server Restart": false,
+      "Bypass Lock Treasure To First Attacker For PVE Bases": false,
+      "Bypass Lock Treasure To First Attacker For PVP Bases": true,
+      "Despawn Spawned Mounts": true,
+      "Do Not Destroy Player Built Deployables": true,
+      "Do Not Destroy Player Built Structures": true,
+      "Divide Rewards Among All Raiders": true,
+      "Draw Corpse Time (Seconds)": 300.0,
+      "Destroy Boxes Clipped Too Far Into Terrain": true,
+      "Destroy Turrets Clipped Too Far Into Terrain": true,
+      "Eject Sleepers Before Spawning Base": true,
+      "Eject Scavengers When Raid Is Completed": true,
+      "Eject Mountables Before Spawning A Base": false,
+      "Kill Deployables Before Spawning A Base": false,
+      "Eject Deployables Before Spawning A Base": false,
+      "Extra Distance To Spawn From Monuments": 25.0,
+      "Move Cookables Into Ovens": true,
+      "Move Food Into BBQ Or Fridge": true,
+      "Blacklist For BBQ And Fridge": [
+        "syrup",
+        "pancakes"
+      ],
+      "Move Weapons Onto Weapon Racks": true,
+      "Divide Weapon Rack Loot When Enabled": true,
+      "Move Resources Into Tool Cupboard": true,
+      "Move Items Into Lockers": true,
+      "Divide Locker Loot When Enabled": true,
+      "Lock Treasure To First Attacker": true,
+      "Lock Treasure Max Inactive Time (Minutes)": 20.0,
+      "Lock Players To Raid Base After Entering Zone": false,
+      "Only Award First Attacker and Allies": false,
+      "Only Award Owner Of Raid": false,
+      "Minutes Until Despawn After Looting (min: 1)": 15,
+      "Minutes Until Despawn After Looting Resets When Damaged": false,
+      "Minutes Until Despawn After Inactive (0 = disabled)": 30,
+      "Minutes Until Despawn After Inactive Resets When Damaged": true,
+      "Mounts Can Take Damage From Players": false,
+      "Player Cupboard Detection Radius": 125.0,
+      "PVP Delay Triggers When Entity Destroyed From Outside Zone": false,
+      "Players With PVP Delay Can Damage Anything Inside Zone": false,
+      "Players With PVP Delay Can Damage Other Players With PVP Delay Anywhere": false,
+      "PVP Delay Between Zone Hopping": 10.0,
+      "PVP Delay Between Zone Hopping Persists After Despawn": false,
+      "Prevent Fire From Spreading": true,
+      "Prevent Players From Hogging Raids": true,
+      "Block Clans From Owning More Than One Raid": false,
+      "Block Friends From Owning More Than One Raid": false,
+      "Block Teams From Owning More Than One Raid": false,
+      "Block Players From Joining A Clan/Team To Exploit Restrictions": false,
+      "Prevent Fall Damage When Base Despawns": false,
+      "Require Cupboard To Be Looted Before Completion": false,
+      "Destroying The Cupboard Completes The Raid": false,
+      "Require All Bases To Spawn Before Respawning An Existing Base": true,
+      "Turn Lights On At Night": true,
+      "Turn Lights On Indefinitely": false,
+      "Ignore List For Turn Lights On": [
+        "laserlight",
+        "weaponrack",
+        "lightswitch",
+        "soundlight",
+        "xmas"
+      ],
+      "Traps And Turrets Ignore Users Using NOCLIP": false,
+      "Use Random Codes On Code Locks": true,
+      "Wait To Start Despawn Timer When Base Takes Damage From Player": false,
+      "Wait To Start Despawn Timer Until Npc Is Killed By Player": false,
+      "Maximum Water Depth For All Npcs": 3.0,
+      "Block RevivePlayer Plugin For PVP Bases": false,
+      "Block RevivePlayer Plugin For PVE Bases": false
+    },
+    "Map Markers": {
+      "Marker Name": "Raidable Base Event",
+      "Radius": 0.25,
+      "Radius (Map Size 3600 Or Less)": 0.25,
+      "Use Vending Map Marker": true,
+      "Show Owners Name on Map Marker": true,
+      "Use Explosion Map Marker": false,
+      "Create Markers For Maintained Events": true,
+      "Create Markers For Scheduled Events": true,
+      "Create Markers For Manual Events": true
+    },
+    "Maintained Events": {
+      "Always Maintain Max Events": true,
+      "Max Maintained Events": 5,
+      "Max Maintained Events (When Deep Sea Is Open)": 5,
+      "Chance To Randomly Spawn PVP Bases (0 = Ignore Setting)": 0.0,
+      "Include PVE Bases": true,
+      "Include PVP Bases": true,
+      "Minimum Required Players Online": 1,
+      "Maximum Limit Of Players Online": 300,
+      "Time To Wait Between Spawns": 10.0,
+      "Convert PVE To PVP": false,
+      "Convert PVP To PVE": false,
+      "Ignore Safe Checks": false,
+      "Ignore Safe Checks In X Radius Only": 0.0,
+      "Ignore Player Entities At Custom Spawn Locations": false,
+      "Spawn Bases X Distance Apart": 100.0,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Manual Events": {
+      "Convert PVE To PVP": false,
+      "Convert PVP To PVE": false,
+      "Max Manual Events": 1,
+      "Max Manual Events (When Deep Sea Is Open)": 1,
+      "Spawns Database File (Optional)": "none",
+      "Bypass Lock Treasure To First Attacker For PVE Bases": false,
+      "Bypass Lock Treasure To First Attacker For PVP Bases": true
+    },
+    "Scheduled Events": {
+      "Enabled": false,
+      "Every Min Seconds": 3600.0,
+      "Every Max Seconds": 7200.0,
+      "Max Scheduled Events": 3,
+      "Max Scheduled Events (When Deep Sea Is Open)": 3,
+      "Max To Spawn At Once (0 = Use Max Scheduled Events Amount)": 0,
+      "Chance To Randomly Spawn PVP Bases (0 = Ignore Setting)": 0.0,
+      "Include PVE Bases": true,
+      "Include PVP Bases": true,
+      "Minimum Required Players Online": 1,
+      "Maximum Limit Of Players Online": 300,
+      "Time To Wait Between Spawns": 15.0,
+      "Convert PVE To PVP": false,
+      "Convert PVP To PVE": false,
+      "Ignore Safe Checks": false,
+      "Ignore Safe Checks In X Radius Only": 0.0,
+      "Ignore Player Entities At Custom Spawn Locations": false,
+      "Spawn Bases X Distance Apart": 100.0,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Allowed Zone Manager Zones": [
+      "pvp",
+      "99999999"
+    ],
+    "Use Grid Locations In Allowed Zone Manager Zones Only": false,
+    "Extended Distance To Spawn Away From Zone Manager Zones": 25.0,
+    "Automatically Teleport Admins To Their Map Marker Positions": true,
+    "Automatically Destroy Markers That Admins Teleport To": false,
+    "Block Archery Plugin At Events": false,
+    "Block Wizardry Plugin At Events": false,
+    "Block Weapons From Use": [
+      "toolgun"
+    ],
+    "Chat Steam64ID": 76561199564392767,
+    "Expansion Mode (Dangerous Treasures)": false,
+    "Remove Admins From Raiders List": false,
+    "Show X Z Coordinates": false,
+    "Show Grid Coordinates": true,
+    "Show Direction To Coordinates": false,
+    "Event Command": "rbe",
+    "Hunter Command": "rb",
+    "Server Console Command": "rbevent"
+  },
+  "Event Messages": {
+    "Show Message For Block Damage Outside Of The Dome To Players Inside": false,
+    "Ineligible For Rewards": {
+      "Flying": false,
+      "Vanished": false,
+      "Inactive": true,
+      "Not An Ally": true,
+      "Not The Owner": true,
+      "Not A Participant": true,
+      "Remove Admins From Raiders List": false
+    },
+    "Announce Raid Unlocked": false,
+    "Announce Thief Message": true,
+    "Announce PVE/PVP Enter/Exit Messages": true,
+    "Announce When Blocks Are Immune To Damage": false,
+    "Show Destroy Warning": true,
+    "Show Opened Message For PVE Bases": true,
+    "Show Opened Message For PVP Bases": true,
+    "Show Prefix": true,
+    "Notify Plugin - Type (-1 = disabled)": -1,
+    "Rust Game Tip Style (0 = blue norm, 1 = red norm, 2 = blue long, 3 = blue short, 4 = server)": -1,
+    "Strip Colors From Rust Game Tip Messages": false,
+    "Notification Interval": 1.0,
+    "Send Messages To Player": true,
+    "Save Thieves To Log File": false
+  },
+  "GUIAnnouncements": {
+    "Enabled": false,
+    "Banner Tint Color": "Grey",
+    "Maximum Distance": 300.0,
+    "Text Color": "White"
+  },
+  "Ranked Ladder": {
+    "Award Top X Players On Wipe": 3,
+    "Enabled": true,
+    "Show Top X Ladder": 10,
+    "Amount Of Days Before Removing Inactive User From The Lifetime Ladder?": 60.0
+  },
+  "Skins": {
+    "Boxes": {
+      "Use Random Skin": true,
+      "Include Workshop Skins": true,
+      "Use Imported Workshop Skins File": true,
+      "Use Approved Workshop Skins Only": false,
+      "Ignore If Skinned Already": false,
+      "Use Identical Skins": false,
+      "Preset Skins": []
+    },
+    "Loot Items": {
+      "Include Workshop Skins": true,
+      "Use Random Skin": true,
+      "Use Imported Workshop Skins File": false,
+      "Use Identical Skins For Stackable Items": true,
+      "Use Identical Skins For Non-Stackable Items": false,
+      "Use Approved Workshop Skins Only": false
+    },
+    "Npcs": {
+      "Use Skins With Murderer Kits": false,
+      "Use Skins With Scientist Kits": false,
+      "Ignore Skinned Murderer Kits": false,
+      "Ignore Skinned Scientist Kits": false,
+      "Use Random Skin": true,
+      "Include Workshop Skins": true,
+      "Use Imported Workshop Skins File": true,
+      "Use Approved Workshop Skins Only": false,
+      "Ignore If Skinned Already": false,
+      "Use Identical Skins": false,
+      "Preset Skins": []
+    },
+    "Deployables": {
+      "Partial Names": [
+        "door",
+        "barricade",
+        "chair",
+        "fridge",
+        "furnace",
+        "locker",
+        "reactivetarget",
+        "rug",
+        "sleepingbag",
+        "table",
+        "vendingmachine",
+        "waterpurifier",
+        "skullspikes",
+        "skulltrophy",
+        "summer_dlc",
+        "sled"
+      ],
+      "Use Approved Workshop Skins Only": false,
+      "Use Imported Workshop Skins File": false,
+      "Preset Door Skins": [],
+      "Include Workshop Skins": true,
+      "Use Random Skin": true,
+      "Skin Everything": true,
+      "Ignore If Skinned Already": false,
+      "Use Identical Skins": false
+    },
+    "Randomize Npc Item Skins": true,
+    "Use Identical Skins For All Npcs": true,
+    "Ignore If Skinned Already": true
+  },
+  "Treasure": {
+    "Resources Not Moved To Cupboards": [
+      "skull.human",
+      "battery.small",
+      "bone.fragments",
+      "can.beans.empty",
+      "can.tuna.empty",
+      "water.salt",
+      "water",
+      "skull.wolf"
+    ],
+    "Use Day Of Week Loot": false,
+    "Do Not Duplicate Base Loot": false,
+    "Do Not Duplicate Difficulty Loot": false,
+    "Do Not Duplicate Default Loot": false,
+    "Use Stack Size Limit For Spawning Items": false
+  },
+  "UI": {
+    "Advanced Alerts UI": {
+      "Enabled": true,
+      "Anchor Min": "0.35 0.85",
+      "Anchor Max": "0.65 0.95",
+      "Time Shown": 5.0
+    },
+    "Delay": {
+      "Font Size": 12,
+      "Enabled": false,
+      "Anchor Min": "0.472 0.172",
+      "Anchor Max": "0.55 0.311",
+      "Panel Alpha": 0.98,
+      "Text Color": "#FF0000",
+      "Panel Color": "#000000"
+    },
+    "Status UI": {
+      "Font Size": 12,
+      "PVP Color": "#FF0000",
+      "PVE Color": "#008000",
+      "Show Loot Left": true,
+      "Enabled": true,
+      "Offset Min": "191.957 17.056",
+      "Anchor Min": null,
+      "Offset Max": "327.626 79.024",
+      "Anchor Max": null,
+      "Panel Alpha": 0.98,
+      "Panel Color": "#252121",
+      "Title Background Color": "#000000",
+      "No Owner Color": "#FFFFFF",
+      "Negative Color": "#FF0000",
+      "Positive Color": "#008000"
+    }
+  },
+  "Weapons": {
+    "No Fuel Source": [
+      "skull_fire_pit",
+      "cursedcauldron.deployed"
+    ],
+    "Infinite Ammo": {
+      "AutoTurret": true,
+      "FlameTurret": true,
+      "FogMachine": true,
+      "GunTrap": true,
+      "SamSite": true
+    },
+    "Ammo": {
+      "AutoTurret": 256,
+      "FlameTurret": 256,
+      "FogMachine": 5,
+      "GunTrap": 128,
+      "SamSite": 24
+    },
+    "Tesla Coil": {
+      "Requires A Power Source": true,
+      "Max Discharge Self Damage Seconds (0 = None, 120 = Rust default)": 0.0,
+      "Max Damage Output": 35.0,
+      "Health": 250.0
+    },
+    "Fog Machine Allows Motion Toggle": true,
+    "Fog Machine Requires A Power Source": true,
+    "SamSite Repairs Every X Minutes (0.0 = disabled)": 0.0,
+    "SamSite Range (350.0 = Rust default)": 75.0,
+    "SamSite Requires Power Source": false,
+    "Spooky Speakers Requires Power Source": false,
+    "Sprinkler Requires A Power Source": true,
+    "Test Generator Power": 100.0,
+    "Furnace Starting Fuel": 1000
+  },
+  "Log Debug To File": false,
+  "Block paid and restricted content to comply with Facepunch TOS": true,
+  "Destroy DLC containers once looted": true
+}

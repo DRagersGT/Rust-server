@@ -1,0 +1,300 @@
+{
+  "Config Version": "2.4.4",
+  "Default RuleSet": "default",
+  "Configuration Options": {
+    "Entities with these skin ID's can hurt anything": [],
+    "Apartment Complex": {
+      "Enabled": true,
+      "Allow PVP Damage": false,
+      "PVP Requires Attacker To Be Alive": true,
+      "PVP Requires Attacker In The Same Room": true,
+      "Allow Master Key": false,
+      "Allow Bribe In Basement": false,
+      "Allow Break In (Rental Shop)": false,
+      "Allow Break In (Apartment Room)": false
+    },
+    "Armor damage (PVE)": {
+      "Skin IDs which are immune to damage": [],
+      "Enable support for npcs to cause armor damage on hit": false,
+      "Play headshot sound when a player is headshot by an npc": false
+    },
+    "Loot": {
+      "Auto lock (codelock, keylock, nothing)": {
+        "cupboard.tool.deployed": "nothing"
+      },
+      "Exceptions for locks to various containers option": [
+        "skulltrophy.deployed",
+        "skull_fire_pit",
+        "bbq.static",
+        "small_refinery_static",
+        "campfire"
+      ],
+      "Enable support to allow adding locks to various containers": false,
+      "Enable codelock anti-raiding (team/clan/friend access only)": false,
+      "Protect unlocked TC from being accessed by enemy players": false,
+      "Check And Allow When Authed (applies to Protect unlocked TC)": false,
+      "Prevent player shield from dropping on death": false,
+      "Prevent player active item from dropping on death": false,
+      "Prevent player backpack from dropping on death (Rust backpack)": false,
+      "Prevent players from using enemy car lifts": false,
+      "Prevent non-ally from looting sleepers": false,
+      "Prevent non-ally from looting corpses": false,
+      "Prevent non-ally from looting backpacks": false,
+      "Prevent non-ally from looting planters": false,
+      "Invis and vanish bypass loot protection (TruePVE only)": true
+    },
+    "Reflect PVP Damage Multipliers (0 = disabled, 1 = 100%)": {
+      "Multiplier Allows Armor Protection": true,
+      "Arrow Damage": 0.0,
+      "Blunt Damage": 0.0,
+      "Bullet Damage": 0.0,
+      "Slash Damage": 0.0,
+      "Stab Damage": 0.0
+    },
+    "TwigDamage (FLAG)": {
+      "Apply To Twig (no flag required)": false,
+      "Apply To Wood": false,
+      "Apply To Stone": false,
+      "Apply To Metal": false,
+      "Apply To HQM": false,
+      "Require TwigDamage Flag": false,
+      "Block Damage From Ally": false,
+      "Check And Allow When Authed": false,
+      "Block Damage When Owner Is Online": true,
+      "Log Offenses": false,
+      "Notify Offenders": false,
+      "Reflect Damage Multiplier": 0.0,
+      "Multiplier Allows Armor Protection": true
+    },
+    "handleDamage": true,
+    "useZones": true,
+    "Trace To Player Console": false,
+    "Trace To Server Console": true,
+    "Log Trace To File": true,
+    "Maximum Distance From Player To Trace": 50.0,
+    "Prevent Water From Extinguishing BaseOven": false,
+    "Prevent Players From Being Marked Hostile": false,
+    "Allow PVP Damage In Deep Sea": false,
+    "Allow Raiding In Deep Sea": false,
+    "Allow PVP Below Height": -500.0,
+    "Allow PVP Above Height": 5000.0,
+    "Allow Other Damage Below Height": -500.0,
+    "Allow Other Damage Above Height": 5000.0,
+    "Allow Cold Metabolism Damage": false,
+    "Allow Heat Metabolism Damage": false,
+    "Allow Thirst And Hunger Damage To Farmable Animals": true,
+    "Auto remove mappings from data file that no longer exist on server restart": false,
+    "Vehicles can hurt NPC players (true = ignore this option)": true,
+    "Use Clans": true,
+    "Use Friends": true,
+    "Use Teams": true
+  },
+  "Mappings": {
+    "default": "default"
+  },
+  "Schedule": {
+    "enabled": false,
+    "useRealtime": false,
+    "broadcast": false,
+    "entries": []
+  },
+  "RuleSets": [
+    {
+      "name": "default",
+      "enabled": true,
+      "defaultAllowDamage": false,
+      "flags": "AuthorizedFarmableDamage, HopperCannotTargetEnemyLoot, HumanNPCDamage, LockedBoxesImmortal, LockedDoorsImmortal, PlayerSamSitesIgnorePlayers, TrapsIgnorePlayers, TurretsIgnorePlayers",
+      "rules": [
+        "anything can hurt dispensers",
+        "anything can hurt resources",
+        "anything can hurt barricades",
+        "anything can hurt traps",
+        "anything can hurt heli",
+        "anything can hurt npcs",
+        "anything can hurt players",
+        "nothing can hurt ch47",
+        "nothing can hurt cars",
+        "nothing can hurt mini",
+        "nothing can hurt snowmobiles",
+        "nothing can hurt ridablehorses",
+        "cars cannot hurt anything",
+        "mini cannot hurt anything",
+        "ch47 cannot hurt anything",
+        "scrapheli cannot hurt anything",
+        "players cannot hurt players",
+        "players cannot hurt traps",
+        "guards cannot hurt players",
+        "fire cannot hurt players",
+        "traps cannot hurt players",
+        "highwalls cannot hurt players",
+        "barricades2 cannot hurt players",
+        "mini cannot hurt mini",
+        "npcs can hurt players",
+        "junkyard cannot hurt anything",
+        "junkyard can hurt cars",
+        "players cannot hurt tugboats",
+        "heliturrets cannot hurt players",
+        "ramhead can hurt ramhead",
+        "siege cannot hurt players",
+        "players cannot hurt farm"
+      ]
+    }
+  ],
+  "Entity Groups": [
+    {
+      "name": "barricades",
+      "members": "door_barricade_a, door_barricade_a_large, door_barricade_b, door_barricade_dbl_a, door_barricade_dbl_a_large, door_barricade_dbl_b, door_barricade_dbl_b_large, gingerbread_barricades_house, gingerbread_barricades_snowman, gingerbread_barricades_tree, wooden_crate_gingerbread",
+      "exclusions": "barricade.concrete, barricade.sandbags, barricade.stone"
+    },
+    {
+      "name": "barricades2",
+      "members": "barricade.medieval, spikes_static, barricade.metal, barricade.wood, barricade.woodwire, spikes.floor, icewall, GraveyardFence, barricade.cover.wood, barricade.cover.wood_double",
+      "exclusions": ""
+    },
+    {
+      "name": "dispensers",
+      "members": "BaseCorpse, HelicopterDebris, PlayerCorpse, NPCPlayerCorpse, HorseCorpse, SkyLantern, Pinata",
+      "exclusions": ""
+    },
+    {
+      "name": "fire",
+      "members": "FireBall, FlameExplosive, FlameThrower, BaseOven, FlameTurret, oilfireball2",
+      "exclusions": "napalm"
+    },
+    {
+      "name": "guards",
+      "members": "bandit_guard, scientistpeacekeeper, sentry.scientist.static, sentry.bandit.static",
+      "exclusions": ""
+    },
+    {
+      "name": "heli",
+      "members": "PatrolHelicopter, oilfireballsmall, rocket_heli, rocket_heli_napalm, napalm",
+      "exclusions": ""
+    },
+    {
+      "name": "highwalls",
+      "members": "SimpleBuildingBlock, wall.external.high.ice, gates.external.high.stone, gates.external.high.wood",
+      "exclusions": ""
+    },
+    {
+      "name": "ridablehorses",
+      "members": "RidableHorse",
+      "exclusions": ""
+    },
+    {
+      "name": "cars",
+      "members": "BasicCar, ModularCar, BaseModularVehicle, BaseVehicleModule, VehicleModuleEngine, VehicleModuleSeating, VehicleModuleStorage, VehicleModuleTaxi, ModularCarSeat, Bike",
+      "exclusions": ""
+    },
+    {
+      "name": "mini",
+      "members": "minicopter.entity",
+      "exclusions": ""
+    },
+    {
+      "name": "scrapheli",
+      "members": "ScrapTransportHelicopter",
+      "exclusions": ""
+    },
+    {
+      "name": "ch47",
+      "members": "ch47.entity",
+      "exclusions": ""
+    },
+    {
+      "name": "npcs",
+      "members": "ch47scientists.entity, BradleyAPC, maincannonshell, CustomScientistNpc, SnakeHazard, ScarecrowNPC, HumanNPC, NPCPlayer, ScientistNPC, ScientistNPC2, TunnelDweller, SimpleShark, UnderwaterDweller, ZombieNPC",
+      "exclusions": ""
+    },
+    {
+      "name": "players",
+      "members": "BasePlayer, FrankensteinPet, BeeGrenade",
+      "exclusions": ""
+    },
+    {
+      "name": "resources",
+      "members": "ResourceEntity, TreeEntity, OreResourceEntity, LootContainer, NaturalBeehive, VineSwingingTree",
+      "exclusions": "hobobarrel.deployed"
+    },
+    {
+      "name": "snowmobiles",
+      "members": "snowmobile, tomahasnowmobile",
+      "exclusions": ""
+    },
+    {
+      "name": "traps",
+      "members": "AutoTurret, BearTrap, FlameTurret, Landmine, GunTrap, ReactiveTarget, TeslaCoil, spikes.floor, spikes.trap",
+      "exclusions": ""
+    },
+    {
+      "name": "junkyard",
+      "members": "magnetcrane.entity, carshredder.entity",
+      "exclusions": ""
+    },
+    {
+      "name": "tugboats",
+      "members": "Tugboat",
+      "exclusions": ""
+    },
+    {
+      "name": "heliturrets",
+      "members": "turret_attackheli",
+      "exclusions": ""
+    },
+    {
+      "name": "ramhead",
+      "members": "BatteringRamHead",
+      "exclusions": ""
+    },
+    {
+      "name": "siege",
+      "members": "SiegeTower, Catapult, Ballista, Cannon, BallistaGun, BatteringRam, ConstructableEntity",
+      "exclusions": ""
+    },
+    {
+      "name": "bees",
+      "members": "BeeSwarmAI, Beehive, BeeSwarmMaster, NaturalBeehive",
+      "exclusions": ""
+    },
+    {
+      "name": "farm",
+      "members": "simplechicken.entity, FarmableAnimal, ChickenCoop",
+      "exclusions": ""
+    }
+  ],
+  "Allow Killing Sleepers": false,
+  "Allow Killing Sleepers (Ally Only)": false,
+  "Allow Killing Sleepers (TC Auth Only)": {
+    "Amount of entities required (50 or higher recommended)": 0
+  },
+  "Allow Killing Sleepers (Player Boat And Tugboat)": {
+    "Amount of entities required (Tugboat)": 0,
+    "Amount of entities required (Player-made Boat, must not be in edit mode)": 0
+  },
+  "Allow Killing Sleepers (After X Hours Offline)": 0.0,
+  "Allow Killing Sleepers (Allowed steam ids)": [
+    0
+  ],
+  "Ignore Firework Damage": true,
+  "Ignore Campfire Damage": false,
+  "Ignore Ladder Damage": false,
+  "Ignore Sleeping Bag Damage": false,
+  "Players Can Trigger Traps In Monument Topology": true,
+  "Players Can Hurt Traps In Monument Topology": false,
+  "Players Can Trigger Turrets In Monument Topology": true,
+  "Players Can Hurt Turrets In Monument Topology": false,
+  "Players Can Trigger SAM Sites In Monument Topology": true,
+  "Players Can Hurt SAM Sites In Monument Topology": false,
+  "Prevent hackable crate timer from resetting when attacked": true,
+  "Block Scrap Heli Damage": true,
+  "Prevent elevator from crushing players by using a short upward teleport": false,
+  "Block Igniter Damage": false,
+  "Block Wallpaper Damage": true,
+  "Block Radioactive Water Damage": true,
+  "Block Decay Damage To Vehicles": false,
+  "Block Spray Can In Safe Zones": false,
+  "Prevent heli from strafing in the inner radius of safe zones": false,
+  "Prevent players from throwing water in arctic and tundra biome": false,
+  "Prevent ragdolling when struck by another vehicle": true,
+  "Experimental ZoneManager support for PVE zones": false
+}

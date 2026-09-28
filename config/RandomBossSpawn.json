@@ -1,0 +1,10 @@
+{
+  "BossHealth": 2000.0,
+  "BossPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
+  "GuardCount": 3,
+  "GuardHealth": 300.0,
+  "GuardPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab",
+  "IntervalSeconds": 3600,
+  "LootEnabled": true,
+  "RewardRP": 500
+}

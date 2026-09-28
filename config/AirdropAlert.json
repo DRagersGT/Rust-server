@@ -1,0 +1,5 @@
+{
+  "MinAirdropsPerDay": 1,
+  "MinMinutesBetweenDrops": 60,
+  "ReminderSeconds": 300
+}

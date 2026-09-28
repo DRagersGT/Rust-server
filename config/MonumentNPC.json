@@ -1,0 +1,35 @@
+{
+  "AutoMonuments": true,
+  "BlacklistedMonuments": [
+    "outpost",
+    "bandit_town",
+    "lighthouse",
+    "oilrig_1",
+    "oilrig_2",
+    "excavator",
+    "launch_site"
+  ],
+  "Composition": [
+    {
+      "Count": 1,
+      "Health": 1000.0,
+      "Name": "Juggernaut",
+      "Prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab"
+    },
+    {
+      "Count": 4,
+      "Health": 300.0,
+      "Name": "Spec Ops",
+      "Prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab"
+    },
+    {
+      "Count": 2,
+      "Health": 150.0,
+      "Name": "Scientist",
+      "Prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab"
+    }
+  ],
+  "IntervalSeconds": 300.0,
+  "ManualSpawnPoints": {},
+  "SpawnRadius": 20.0
+}

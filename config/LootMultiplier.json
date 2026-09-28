@@ -1,0 +1,91 @@
+{
+  "Global settings": {
+    "Default Multiplier for new containers": 1,
+    "Default Multiplier for new Categories": 1,
+    "Multiply items with condition": false,
+    "Multiply blueprints": false,
+    "Delay after spawning container to multiply it": 15.0
+  },
+  "Items and containers settings": {
+    "Containers list (shortPrefabName: multiplier)": {
+      "bradley_crate": 4,
+      "codelockedhackablecrate": 4,
+      "codelockedhackablecrate_oilrig": 4,
+      "crate_basic": 1,
+      "crate_elite": 4,
+      "crate_mine": 1,
+      "crate_normal": 1,
+      "crate_normal_2": 1,
+      "crate_normal_2_food": 1,
+      "crate_normal_2_medical": 1,
+      "crate_tools": 1,
+      "crate_underwater_advanced": 4,
+      "crate_underwater_basic": 1,
+      "foodbox": 1,
+      "heli_crate": 4,
+      "loot-barrel-1": 1,
+      "loot-barrel-2": 1,
+      "loot_barrel_1": 1,
+      "loot_barrel_2": 1,
+      "minecart": 4,
+      "oil_barrel": 1,
+      "supply_drop": 4,
+      "trash-pile-1": 1,
+      "vehicle_parts": 1,
+      "crate_ammunition": 1,
+      "crate_food_1": 1,
+      "crate_food_2": 1,
+      "crate_fuel": 1,
+      "roadsign1": 1,
+      "roadsign2": 1,
+      "roadsign4": 1,
+      "roadsign5": 1,
+      "roadsign6": 1,
+      "roadsign7": 1,
+      "roadsign8": 1,
+      "roadsign9": 1,
+      "tech_parts_1": 1,
+      "tech_parts_2": 1,
+      "wagon_crate_normal": 1,
+      "codelockedhackablecrate_ghostship": 4,
+      "beehive.natural": 1,
+      "crate_basic_jungle": 1,
+      "crate_cannons": 1,
+      "crate_medical": 1,
+      "crate_shore": 1,
+      "food_cache_001": 1,
+      "food_cache_002": 1,
+      "food_cache_004": 1,
+      "food_cache_005": 1,
+      "roadsign3": 1
+    },
+    "Categories list (Category: multiplier)": {
+      "Ammunition": 1,
+      "Attire": 1,
+      "Component": 1,
+      "Construction": 1,
+      "Electrical": 1,
+      "Food": 1,
+      "Fun": 1,
+      "Items": 1,
+      "Medical": 1,
+      "Misc": 1,
+      "Resources": 1,
+      "Tool": 1,
+      "Traps": 1,
+      "Weapon": 1
+    },
+    "Items list (shortname: multiplier)": {
+      "metalpipe": 1,
+      "scrap": 1,
+      "tarp": 1
+    },
+    "Item | Multiplier Blacklist": [
+      "Attire",
+      "Weapon"
+    ],
+    "Item | Item Blacklist": [
+      "ammo.rocket.smoke"
+    ]
+  }
+}

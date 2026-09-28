@@ -1,0 +1,22 @@
+{
+  "AutoFill": {
+    "BasePrice": 2000,
+    "IntervalSeconds": 120.0,
+    "MaxFuel": 100,
+    "MaxLevel": 1
+  },
+  "MoreSlots": {
+    "BaseCapacity": 30,
+    "BasePrice": 800,
+    "MaxLevel": 5,
+    "SlotsPerLevel": 6
+  },
+  "NoDecay": {
+    "BasePrice": 8000,
+    "MaxLevel": 1
+  },
+  "ResearchFree": {
+    "BasePrice": 5000,
+    "MaxLevel": 1
+  }
+}

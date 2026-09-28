@@ -1,0 +1,70 @@
+{
+  "AllQuestsBonusRP": 500,
+  "QuestPool": [
+    {
+      "Description": "Добудь {N} камня",
+      "MaxAmount": 8000,
+      "MinAmount": 3000,
+      "RewardRP": 100,
+      "Shortname": "stones",
+      "Type": "gather"
+    },
+    {
+      "Description": "Сруби {N} дерева",
+      "MaxAmount": 8000,
+      "MinAmount": 3000,
+      "RewardRP": 100,
+      "Shortname": "wood",
+      "Type": "gather"
+    },
+    {
+      "Description": "Добудь {N} железной руды",
+      "MaxAmount": 5000,
+      "MinAmount": 1500,
+      "RewardRP": 150,
+      "Shortname": "metal.ore",
+      "Type": "gather"
+    },
+    {
+      "Description": "Добудь {N} серы",
+      "MaxAmount": 3000,
+      "MinAmount": 1000,
+      "RewardRP": 150,
+      "Shortname": "sulfur.ore",
+      "Type": "gather"
+    },
+    {
+      "Description": "Добудь {N} HQM руды",
+      "MaxAmount": 1500,
+      "MinAmount": 500,
+      "RewardRP": 200,
+      "Shortname": "hq.metal.ore",
+      "Type": "gather"
+    },
+    {
+      "Description": "Убей {N} животных",
+      "MaxAmount": 25,
+      "MinAmount": 10,
+      "RewardRP": 100,
+      "Shortname": null,
+      "Type": "kill_animal"
+    },
+    {
+      "Description": "Убей {N} NPC",
+      "MaxAmount": 50,
+      "MinAmount": 20,
+      "RewardRP": 200,
+      "Shortname": null,
+      "Type": "kill_npc"
+    },
+    {
+      "Description": "Открой {N} ящиков",
+      "MaxAmount": 40,
+      "MinAmount": 15,
+      "RewardRP": 100,
+      "Shortname": null,
+      "Type": "loot"
+    }
+  ],
+  "QuestsPerDay": 3
+}

@@ -1,0 +1,12 @@
+{
+  "AllowPolarBears": true,
+  "AnimalsPerWave": 6,
+  "IntervalSeconds": 2400,
+  "SpawnRadius": 15.0,
+  "AnimalPrefabs": {
+    "bear": "assets/rust.ai/agents/bear/bear.prefab",
+    "wolf": "assets/rust.ai/agents/wolf/wolf.prefab",
+    "polarbear": "assets/rust.ai/agents/bear/polarbear.prefab",
+    "boar": "assets/rust.ai/agents/boar/boar.prefab"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "GatherAmountThreshold": 100,
+  "PerAnimalKill": 5,
+  "PerBossKill": 200,
+  "PerGatherBatch": 1,
+  "PerLootOpen": 2,
+  "PerNpcKill": 10,
+  "PerPlayerKill": 50,
+  "PerRecycleBatch": 1,
+  "RecycleAmountThreshold": 5,
+  "RewardForLoot": false,
+  "ShowMessages": true
+}

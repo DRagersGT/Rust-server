@@ -1,0 +1,10 @@
+{
+  "AmmoMax": 50,
+  "AmmoMin": 20,
+  "IntervalSeconds": 300.0,
+  "LootEnabled": true,
+  "MaxAlive": 40,
+  "NightMultiplier": 2,
+  "NpcPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab",
+  "PerWave": 5
+}

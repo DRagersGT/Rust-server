@@ -1,0 +1,52 @@
+{
+  "Achievements": [
+    {
+      "Id": "stone_100k",
+      "Name": "Каменотёс — 100 000 камня",
+      "RewardRP": 1000,
+      "TargetAmount": 100000
+    },
+    {
+      "Id": "wood_100k",
+      "Name": "Лесоруб — 100 000 дерева",
+      "RewardRP": 1000,
+      "TargetAmount": 100000
+    },
+    {
+      "Id": "metal_50k",
+      "Name": "Металлург — 50 000 руды",
+      "RewardRP": 1500,
+      "TargetAmount": 50000
+    },
+    {
+      "Id": "sulfur_20k",
+      "Name": "Химик — 20 000 серы",
+      "RewardRP": 1500,
+      "TargetAmount": 20000
+    },
+    {
+      "Id": "hunter_100",
+      "Name": "Охотник — 100 животных",
+      "RewardRP": 1000,
+      "TargetAmount": 100
+    },
+    {
+      "Id": "npc_hunter_500",
+      "Name": "Чистильщик — 500 NPC",
+      "RewardRP": 2500,
+      "TargetAmount": 500
+    },
+    {
+      "Id": "boss_slayer_10",
+      "Name": "Убийца боссов — 10 боссов",
+      "RewardRP": 3000,
+      "TargetAmount": 10
+    },
+    {
+      "Id": "looter_200",
+      "Name": "Мародёр — 200 ящиков",
+      "RewardRP": 1000,
+      "TargetAmount": 200
+    }
+  ]
+}

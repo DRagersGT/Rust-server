@@ -1,0 +1,7 @@
+{
+  "CrateCount": 3,
+  "GuardCount": 4,
+  "GuardHealth": 250.0,
+  "GuardPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab",
+  "IntervalSeconds": 2700
+}

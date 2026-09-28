@@ -1,0 +1,9 @@
+{
+  "ApplyToList": [
+    "metal.ore",
+    "sulfur.ore",
+    "hq.metal.ore",
+    "wood"
+  ],
+  "OutputMultiplier": 100
+}

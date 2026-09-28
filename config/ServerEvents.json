@@ -1,0 +1,10 @@
+{
+  "BossGuardCount": 6,
+  "BossPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
+  "CacheGuardCount": 5,
+  "EventDurationSeconds": 1800,
+  "GuardPrefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab",
+  "IntervalSeconds": 7200.0,
+  "MinPlayersOnline": 1,
+  "SiegeNpcCount": 8
+}

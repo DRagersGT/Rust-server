@@ -1,0 +1,52 @@
+{
+  "ArenaPosition": "-526.69 20.74 268.58",
+  "MinSpawnRadius": 15.0,
+  "MaxSpawnRadius": 50.0,
+  "MaxHeightDifference": 5.0,
+  "CooldownSeconds": 600,
+  "TimeBetweenWaves": 15,
+  "MaxWaves": 5,
+  "NpcRoam": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_roam.prefab",
+  "NpcPeacekeeper": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_peacekeeper.prefab",
+  "NpcHeavy": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_heavy.prefab",
+  "WaveComposition": [
+    {
+      "Roam": 3,
+      "Peacekeeper": 0,
+      "Heavy": 0,
+      "Boss": false
+    },
+    {
+      "Roam": 5,
+      "Peacekeeper": 0,
+      "Heavy": 0,
+      "Boss": false
+    },
+    {
+      "Roam": 6,
+      "Peacekeeper": 2,
+      "Heavy": 0,
+      "Boss": false
+    },
+    {
+      "Roam": 7,
+      "Peacekeeper": 3,
+      "Heavy": 1,
+      "Boss": false
+    },
+    {
+      "Roam": 8,
+      "Peacekeeper": 5,
+      "Heavy": 1,
+      "Boss": true
+    }
+  ],
+  "Rewards": {
+    "PerRoamKill": 5,
+    "PerPeacekeeperKill": 10,
+    "PerHeavyKill": 20,
+    "PerBossKill": 100,
+    "PerWaveComplete": 25,
+    "AllWavesBonus": 250
+  }
+}

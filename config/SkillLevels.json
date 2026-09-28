@@ -1,0 +1,44 @@
+{
+  "BonusPerLevel": 0.5,
+  "BoostZone": {
+    "Enabled": true,
+    "MonumentName": "sphere_tank",
+    "Multiplier": 2.0,
+    "Radius": 50.0
+  },
+  "Daily": {
+    "Enabled": true,
+    "FirstHourMultiplier": 2.0
+  },
+  "EventXP": {
+    "Airdrop": 300,
+    "ArenaWave": 500,
+    "BossKill": 1000,
+    "PatrolKill": 50
+  },
+  "LevelUpMessageInterval": 10,
+  "MaxBonusPercent": 10000.0,
+  "MaxLevel": 10000,
+  "Potion": {
+    "BoostPercent": 100.0,
+    "DurationMinutes": 30,
+    "EmptyCanCost": 1,
+    "Enabled": true,
+    "ScrapCost": 10
+  },
+  "ShowLevelUpMessages": true,
+  "Streak": {
+    "BonusPercent": 10.0,
+    "DaysRequired": 5,
+    "Enabled": true
+  },
+  "Weekend": {
+    "Enabled": true,
+    "Multiplier": 1.5
+  },
+  "XPBase": 1.0,
+  "XPLooting": 0.05,
+  "XPMining": 0.05,
+  "XPSkinning": 0.1,
+  "XPWoodcutting": 0.05
+}
